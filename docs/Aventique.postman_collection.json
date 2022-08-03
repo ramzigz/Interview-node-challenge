@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "af48c601-6741-4c28-9fa4-1f1cc0a44958",
+		"name": "Aventique",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{url}}/users",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{url}}/users/A5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"A5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first_name",
+									"value": "Ramzi",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Guizani",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "29",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "first_name5@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "remember",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/users",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditUser",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first_name",
+									"value": "Ramzii",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Guizani",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "29",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "first_name6@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "remember",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/users/A5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"A5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/users/A5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"A5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

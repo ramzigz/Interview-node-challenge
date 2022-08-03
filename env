@@ -1,0 +1,12 @@
+NODE_ENV=development
+PORT=3000
+APP_NAME=reservations-app
+MONGODB_URI=mongodb://localhost:27017/reservations-app
+TOKEN_SECRET=
+SESSION_SECRET=
+FILE_SIZE_LIMIT_MB=5
+
+
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
+

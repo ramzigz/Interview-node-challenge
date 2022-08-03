@@ -1,0 +1,21 @@
+# Dependency directory
+node_modules
+
+#Files directory
+uploads
+
+#Logs directory
+logs
+
+# API keys and secrets
+/.env
+
+# Editors
+.idea
+.vscode
+
+#Build folder
+build/
+
+/.eslintrc.json
+appLogs.log

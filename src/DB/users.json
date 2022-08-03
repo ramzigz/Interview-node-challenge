@@ -1,0 +1,34 @@
+[
+    {
+        "id": "A1",
+        "first_name": "first_nameA1",
+        "last_name": "last_nameA1",
+        "email": "first_nameA1@gmail.com",
+        "password": "passwordA1",
+        "birthday": "1996-04-12"
+    },
+    {
+        "id": "A2",
+        "first_name": "first_nameA2",
+        "last_name": "last_nameA2",
+        "email": "first_nameA2@gmail.com",
+        "password": "passwordA2",
+        "birthday": "1989-02-27"
+    },
+    {
+        "id": "A3",
+        "first_name": "first_nameA3",
+        "last_name": "last_nameA3",
+        "email": "first_nameA3@gmail.com",
+        "password": "passwordA3",
+        "birthday": "1992-09-28"
+    },
+    {
+        "id": "A4",
+        "first_name": "first_nameA4",
+        "last_name": "last_nameA4",
+        "email": "first_nameA4@gmail.com",
+        "password": "passwordA4",
+        "birthday": "1993-05-22"
+    }
+]
